@@ -69,12 +69,12 @@ public class ComputerPage extends Utility {
     By RadioButtonCredit = By.xpath("//button[@class='button-1 payment-method-next-step-button']");
     By MasterCard = By.xpath("//select[@id='CreditCardType']");
     //Fill all The Details
-    By CardHolderNum = By.xpath("//input[@id='CardholderName']");
+   /* By CardHolderNum = By.xpath("//input[@id='CardholderName']");
     By CardNum = By.xpath("//input[@id='CardNumber']");
     By ExMonth = By.xpath("//select[@id='ExpireMonth']");
     By ExYear = By.xpath("//select[@id='ExpireYear']");
     By CardCode = By.xpath("//input[@id='CardCode']");
-    By continueCardDetail = By.xpath("//button[@class='button-1 payment-info-next-step-button']");
+    By continueCardDetail = By.xpath("//button[@class='button-1 payment-info-next-step-button']");*/
     By VerifypaymentCredirCard = By.xpath("//div[@class='order-summary-content']/div[1]/div[1]/div[2]/ul[1]/li[1]/span[2]");
     By VerifyShippingnextDayAir = By.xpath("//div[@class='order-summary-content']/div[1]/div[2]/div[2]/ul[1]/li[1]/span[2]");
     By VerifyTotalNextAir = By.xpath("//div[@class='total-info']/table[1]/tbody[1]/tr[4]/td[2]/span[1]/strong[1]");
@@ -270,7 +270,7 @@ public class ComputerPage extends Utility {
         Thread.sleep(1000);
 
     }
-    public void EnterCardHolderName() throws InterruptedException {
+    /*public void EnterCardHolderName() throws InterruptedException {
         sendTextToElement(CardHolderNum,"DivyaPatel");
         Thread.sleep(1000);
     }
@@ -294,7 +294,7 @@ public class ComputerPage extends Utility {
     public void ContinueCardDetails()
     {
         clickOnElement(continueCardDetail);
-    }
+    }*/
     public String PaymentMethodCreditAir()
     {
         return getTextFromElement(VerifypaymentCredirCard);
