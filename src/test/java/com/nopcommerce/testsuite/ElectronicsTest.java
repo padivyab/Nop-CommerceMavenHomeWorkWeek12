@@ -33,9 +33,13 @@ public class ElectronicsTest extends TestBase {
         electronicsPage.VerifyThePrice();
         electronicsPage.VerifyShoppingCartMsg();
         electronicsPage.Success();
-        //electronicsPage.VerifyMsgShoppingCart();
-        //electronicsPage.VerifyQtyUpdate();
-        //electronicsPage.VerifyTotalAfterCheck();
+        electronicsPage.VerifyMsgShoppingCart();
+        electronicsPage.VerifyQtyUpdate();
+        electronicsPage.VerifyTotalAfterCheck();
+        computerPage.CheckBoxClick();
+        Thread.sleep(1000);
+        computerPage.CheckoutClick();
+        Thread.sleep(1000);
         electronicsPage.VerifyWelcomeText();
         electronicsPage.ClickOnRegister();
         electronicsPage.VerifyRegisterClick();

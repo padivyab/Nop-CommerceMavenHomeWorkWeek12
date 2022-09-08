@@ -110,12 +110,14 @@ public class ElectronicsPage extends Utility {
         Thread.sleep(1000);
         clickOnElement(MouseHoverGotoCart);
         Thread.sleep(1000);
-        computerPage.CheckBoxClick();
+    }
+
+       /* computerPage.CheckBoxClick();
         Thread.sleep(1000);
         computerPage.CheckoutClick();
-        Thread.sleep(1000);
+        Thread.sleep(1000);*/
 
-    }
+
     public String VerifyWelcomeText()
     {
         return getTextFromElement(VerifyWelcome);
@@ -135,7 +137,7 @@ public class ElectronicsPage extends Utility {
         Thread.sleep(1000);
         sendTextToElement(LastNameR,"Patel");
         Thread.sleep(1000);
-        sendTextToElement(EmailR,"divf78928rdh@gmail.com");
+        sendTextToElement(EmailR,"divpat@gmail.com");
         Thread.sleep(1000);
         sendTextToElement(passwordR,"DivPa96");
         sendTextToElement(ConfirmPasswordR,"DivPa96");
