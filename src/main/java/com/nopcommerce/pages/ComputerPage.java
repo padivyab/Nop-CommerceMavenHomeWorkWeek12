@@ -219,7 +219,7 @@ public class ComputerPage extends Utility {
     }
     public void EnterGmail()
     {
-        sendTextToElement(Email,"Diva123@gmail.com");
+        sendTextToElement(Email,"Diva12346jh@gmail.com");
 
     }
     public void EnterCountry()

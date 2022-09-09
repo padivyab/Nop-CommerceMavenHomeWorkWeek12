@@ -3,8 +3,9 @@
 <suite name="testsuite" verbose="1">
     <test name="Demo Test">
         <classes>
-            <class name="com.nopcommerce.testng.TestNGDemo"></class>
-            <class name="com.nopcommerce.testng.TestNGPriority"></class>
+            <class name="com.nopcommerce.testsuite.ComputerTest"></class>
+            <class name="com.nopcommerce.testsuite.ElectronicsTest"></class>
+            <class name="com.nopcommerce.testsuite.TopMenuTest"></class>
 
         </classes>
     </test>

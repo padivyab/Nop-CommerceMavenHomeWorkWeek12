@@ -137,7 +137,7 @@ public class ElectronicsPage extends Utility {
         Thread.sleep(1000);
         sendTextToElement(LastNameR,"Patel");
         Thread.sleep(1000);
-        sendTextToElement(EmailR,"divpat@gmail.com");
+        sendTextToElement(EmailR,"divpatel6@gmail.com");
         Thread.sleep(1000);
         sendTextToElement(passwordR,"DivPa96");
         sendTextToElement(ConfirmPasswordR,"DivPa96");
